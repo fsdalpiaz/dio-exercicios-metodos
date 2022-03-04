@@ -23,6 +23,12 @@ public class Main {
         Emprestimo.calcular(5000, Emprestimo.getTresParcelas());
         Emprestimo.calcular(5000, 5);
 
+        //área dos quadrilateros
+        System.out.println("Calculando a área dos quadrilateros com sobrecarga");
+
+        Sobrecarga.areaQuadrilatero(5);
+        Sobrecarga.areaQuadrilatero(5,6);
+        Sobrecarga.areaQuadrilatero(5, 6, 7);
 
     }
 }
